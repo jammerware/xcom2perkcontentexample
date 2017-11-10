@@ -37,6 +37,7 @@ private static function X2DataTemplate CreatePumpMeUp()
 	LoadPerkContentEffect = new class'X2Effect_LoadPerkContent';
 	LoadPerkContentEffect.BuildPersistentEffect(1, true);
 	LoadPerkContentEffect.SetDisplayInfo(ePerkBuff_Bonus, Template.LocFriendlyName, Template.GetMyLongDescription(), default.ICON_LOADPERKCONTENT, true);
+	LoadPerkContentEffect.AbilitiesToLoad.AddItem(class'X2Ability_PumpMeUp'.default.NAME_PUMPMEUP);
 	Template.AddTargetEffect(LoadPerkContentEffect);
 	
 	// game state and visualization
