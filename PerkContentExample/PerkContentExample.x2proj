@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>a17ffd4a-6b4e-402f-ac39-b8f13da002f3</Guid>
+    <Name>Perk Content Example</Name>
+    <Description>This mod is an example that shows how to configure persistent visual effects via XComPerkContent.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>PerkContentExample</AssemblyName>
+    <RootNamespace>PerkContentExample</RootNamespace>
+    <ProjectGuid>{6874d034-f351-4317-b854-904b5d371de5}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Content" />
+    <Folder Include="Localization" />
+    <Folder Include="Src" />
+    <Folder Include="Src\PerkContentExample" />
+    <Folder Include="Src\PerkContentExample\Classes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PerkContentExample\Classes\UIDebugStateMachines.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PerkContentExample\Classes\X2Ability_LoadPerkContent.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PerkContentExample\Classes\X2Ability_PumpMeUp.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PerkContentExample\Classes\X2DownloadableContentInfo_PerkContentExample.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PerkContentExample\Classes\X2Effect_LoadPerkContent.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PerkContentExample\Classes\X2Effect_PumpMeUp.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

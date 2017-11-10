@@ -1,0 +1,13 @@
+[PerkContentExample_Ability_PumpMeUp X2AbilityTemplate]
+LocFriendlyName="Pump Me Up!"
+LocLongDescription="Give yourself a shield, with sweet VFX to match."
+LocHelpText="Give yourself a shield, with sweet VFX to match."
+LocFlyOverText="Pumped Up"
+LocPromotionPopupText="Donk flonk clonk"
+
+[PerkContentExample_Ability_LoadPerkContent X2AbilityTemplate]
+LocFriendlyName="Perk Content Loaded"
+LocLongDescription="If you see this, this unit's perk content is being loaded via sick haxx0rz."
+LocHelpText="If you see this, this unit's perk content is being loaded via sick haxx0rz."
+LocFlyOverText="Perk Content Loaded"
+LocPromotionPopupText="Donk flonk clonk"
